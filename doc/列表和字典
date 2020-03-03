@@ -1,0 +1,52 @@
+####list内置操作的时间复杂度
+
+  Operation                Big-O Efficiency
+
+--index[]		                  0(1)
+
+--index assignment 	              0(1)
+
+--append			              0(1)
+
+--pop()			                  0(1)
+
+--pop(i)			              O(n)
+
+--insert(i,item)		          O(n)
+
+--del operator		              O(n)
+
+--iteration		                  O(n)
+
+--contains (in)		              O(n)
+
+--get slice [x:y]	 	          O(k)
+
+--del slice 		              O(n)
+
+--set slice		                  O(n+ k) 
+
+--reverse			              O(n)
+
+--concatenate 		              O(k)
+
+--sort                            O(n log n)
+
+--multiply                        O(nk)
+
+
+####dict内置操作的时间复杂度
+
+Operation		 Big-O Efficiency
+
+--copy			       O(n)
+
+--get item		       0(1)
+
+--set item		       0(1)
+
+--delete item		   0(1)
+
+--contains (in)		   0(1)
+
+--iteration		       O(n)
